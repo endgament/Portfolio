@@ -1,0 +1,142 @@
+body {
+	font-family: "Raleway", sans-serif;
+  margin: auto;
+  max-width: 100%;
+  padding: 5px;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+}
+
+.logo {
+	width: 20%;
+  padding-top: 10px;
+}
+
+.title {
+  width: 80%;
+  text-align: right;
+  font-size: 10px;
+}
+
+
+hr {
+  border-bottom-width: 2px; 
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+/* Main */
+.mainImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+  width: 100%;  
+}
+
+.project1, .project2, .project3 {
+  margin: auto;
+}
+
+.prg-img {
+  display: auto;
+  width:100%;
+}
+
+/*footer*/
+
+.social-media {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 20px;
+  border-radius: 5px 30px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 30px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.copyright{
+  font-size: 10px;
+  text-align: center;
+}
+
+/* Media queries*/
+
+@media screen and (min-width: 500px) {
+  .title {
+    font-size: 15px;
+  }
+
+  .links {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .links {
+    font-size: 15px;
+  }
+
+ 
+  .project1, .project2 {
+    max-width: 30%;
+    margin-right: 3%;
+  }
+
+  .project3 {
+    max-width: 30%;
+    margin-right: 0px;
+  }
+
+
+}
